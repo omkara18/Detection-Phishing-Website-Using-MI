@@ -12,9 +12,9 @@
 > Here we divided the protocol from the entire URL. 
 ![Alt Text](https://github.com/omkara18/Detection-Phishing-Website-Using-MI/blob/master/Detection_Phishing%20Website_V1.0/photos/sepration.png)
 
->domain,address,protocol divided into columns
+>Domain,address,protocol divided into columns
 >Domain name column can be further sub divided into domain_names as well as sub_domain_names
->Similarly, address column can also be further sub divided into path,query_string,file..................
+>Similarly, address column can also be further sub divided into path,query_string,file
 ![Alt Text](https://github.com/omkara18/Detection-Phishing-Website-Using-MI/blob/master/Detection_Phishing%20Website_V1.0/photos/splitted_data.png)
 
 # Feature Extraction

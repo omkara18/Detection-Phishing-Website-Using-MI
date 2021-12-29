@@ -9,9 +9,8 @@
 ## Split the Data
 - We need to split the data according to parts of the URL
 - A typical URL could have the form http://www.example.com/index.html, which indicates a protocol (http), a hostname (www.example.com), and a file name (index.html).
-- Domain name column can be further sub divided into domain_names as well as sub_domain_names
-- Similarly, address column can also be further sub divided into path,query_string,file..................
-
+> Here we divided the protocol from the entire URL. 
+> but need it to be divided it seperate column
 # Feature Extraction
 ## Feature-1:Long URL to Hide the Suspicious Part
 - If the length of the URL is greater than or equal 54 characters then the URL classified as phishing

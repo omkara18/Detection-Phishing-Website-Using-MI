@@ -11,24 +11,26 @@
 
 # Feature Extraction
 ## Feature-1:Long URL to Hide the Suspicious Part
-If the length of the URL is greater than or equal 54 characters then the URL classified as phishing
- - 0 --- indicates legitimate
- - 1 --- indicates Phishing
- - 2 --- indicates Suspicious
+- If the length of the URL is greater than or equal 54 characters then the URL classified as phishing::
+```sh
+ 0 --- indicates legitimate
+ 1 --- indicates Phishing
+ 2 --- indicates Suspicious
+ ```
 ## Feature-2:URL’s having “@” Symbol
 Using “@” symbol in the URL leads the browser to ignore everything preceding the “@” symbol and the real address often follows the “@” symbol.
 IF {Url Having @ Symbol→ Phishing Otherwise→ Legitimate }
-- 0 --- indicates legitimate
-- 1 --- indicates Phishing 
+```sh
+0 --- indicates legitimate
+1 --- indicates Phishing 
+```
 ## Feature-3:Redirecting using “//”
 - The existence of “//” within the URL path means that the user will be redirected to another website. An example of such URL’s is: “http://www.legitimate.com//http://www.phishing.com”. We examine the location where the “//” appears. We find that if the URL starts with “HTTP”, that means the “//” should appear in the sixth position. However, if the URL employs “HTTPS” then the “//” should appear in seventh position.
 - IF {ThePosition of the Last Occurrence of "//" in the URL > 7→ Phishing
 - Otherwise→ Legitimate
 ```sh
 0 --- indicates legitimate
-
-1 --- indicates Phishing
- 
+1 --- indicates Phishing 
 ```
 
 

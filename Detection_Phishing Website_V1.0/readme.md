@@ -48,9 +48,9 @@ IF {Url Having @ Symbol→ Phishing Otherwise→ Legitimate }
 - If the number of dots is equal to three then the URL is classified as “Suspicious” since it has one sub-domain. 
 - However, if the dots are greater than three it is classified as “Phishy” since it will have multiple sub-domains
 ```sh
-0 --- indicates legitimate
-1 --- indicates Phishing
-2 --- indicates Suspicious
+0 ---> indicates legitimate
+1 ---> indicates Phishing
+2 ---> indicates Suspicious
 ```
 
 

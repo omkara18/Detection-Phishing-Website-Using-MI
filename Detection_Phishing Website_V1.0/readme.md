@@ -10,12 +10,11 @@
 - Similarly, address column can also be further sub divided into path,query_string,file..................
 
 # Feature Extraction
-- Feature-1
-  1.Long URL to Hide the Suspicious Part
-  If the length of the URL is greater than or equal 54 characters then the URL classified as phishing
-  0 --- indicates legitimate
-  1 --- indicates Phishing
-  2 --- indicates Suspicious
+## Feature-1:Long URL to Hide the Suspicious Part
+If the length of the URL is greater than or equal 54 characters then the URL classified as phishing
+ - 0 --- indicates legitimate
+ - 1 --- indicates Phishing
+ - 2 --- indicates Suspicious
 
 
 

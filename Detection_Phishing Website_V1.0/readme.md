@@ -20,7 +20,17 @@ Using “@” symbol in the URL leads the browser to ignore everything preceding
 IF {Url Having @ Symbol→ Phishing Otherwise→ Legitimate }
 - 0 --- indicates legitimate
 - 1 --- indicates Phishing 
+## Feature-3:Redirecting using “//”
+- The existence of “//” within the URL path means that the user will be redirected to another website. An example of such URL’s is: “http://www.legitimate.com//http://www.phishing.com”. We examine the location where the “//” appears. We find that if the URL starts with “HTTP”, that means the “//” should appear in the sixth position. However, if the URL employs “HTTPS” then the “//” should appear in seventh position.
+- IF {ThePosition of the Last Occurrence of "//" in the URL > 7→ Phishing
+- Otherwise→ Legitimate
+```sh
+0 --- indicates legitimate
+
+1 --- indicates Phishing
  
+```
+
 
 
 

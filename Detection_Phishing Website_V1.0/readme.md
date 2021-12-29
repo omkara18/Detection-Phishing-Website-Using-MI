@@ -36,8 +36,8 @@ IF {Url Having @ Symbol→ Phishing Otherwise→ Legitimate }
 ## Feature-4:Adding Prefix or Suffix Separated by (-) to the Domain
 - The dash symbol is rarely used in legitimate URLs. Phishers tend to add prefixes or suffixes separated by (-) to the domain name so that users feel that they are dealing with a legitimate webpage.
 - For example http://www.Confirme-paypal.com/.
-IF {Domain Name Part Includes (−) Symbol → Phishing
-Otherwise → Legitimate
+> IF {Domain Name Part Includes (−) Symbol → Phishing
+> Otherwise → Legitimate
 ```sh
 1 --> indicates phishing
 0 --> indicates legitimate

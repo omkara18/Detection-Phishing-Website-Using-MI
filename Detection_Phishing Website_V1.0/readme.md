@@ -11,7 +11,7 @@
 
 # Feature Extraction
 ## Feature-1:Long URL to Hide the Suspicious Part
-- If the length of the URL is greater than or equal 54 characters then the URL classified as phishing::
+- If the length of the URL is greater than or equal 54 characters then the URL classified as phishing
 ```sh
  0 ---> indicates legitimate
  1 ---> indicates Phishing
@@ -43,7 +43,14 @@ IF {Url Having @ Symbol→ Phishing Otherwise→ Legitimate }
 0 --> indicates legitimate
 ```
 
-
-
+## Feature-5:Sub-Domain and Multi Sub-Domains
+- The legitimate URL link has two dots in the URL since we can ignore typing “www.”. 
+- If the number of dots is equal to three then the URL is classified as “Suspicious” since it has one sub-domain. 
+- However, if the dots are greater than three it is classified as “Phishy” since it will have multiple sub-domains
+```sh
+0 --- indicates legitimate
+1 --- indicates Phishing
+2 --- indicates Suspicious
+```
 
 

@@ -15,6 +15,12 @@ If the length of the URL is greater than or equal 54 characters then the URL cla
  - 0 --- indicates legitimate
  - 1 --- indicates Phishing
  - 2 --- indicates Suspicious
+## Feature-2:URL’s having “@” Symbol
+Using “@” symbol in the URL leads the browser to ignore everything preceding the “@” symbol and the real address often follows the “@” symbol.
+IF {Url Having @ Symbol→ Phishing Otherwise→ Legitimate }
+- 0 --- indicates legitimate
+- 1 --- indicates Phishing 
+ 
 
 
 

@@ -26,7 +26,7 @@
 ```
 ## Feature-3:Redirecting using “//”
 - The existence of “//” within the URL path means that the user will be redirected to another website. An example of such URL’s is: “http://www.legitimate.com//http://www.phishing.com”. We examine the location where the “//” appears. We find that if the URL starts with “HTTP”, that means the “//” should appear in the sixth position. However, if the URL employs “HTTPS” then the “//” should appear in seventh position.
-- IF {ThePosition of the Last Occurrence of "//" in the URL > 7→ Phishing Otherwise→ `Legitimate`}
+- IF {ThePosition of the Last Occurrence of "//" in the URL > 7→ `Phishing` Otherwise→ `Legitimate`}
 ```sh
 0 ---> indicates legitimate
 1 ---> indicates Phishing 
@@ -35,8 +35,7 @@
 ## Feature-4:Adding Prefix or Suffix Separated by (-) to the Domain
 - The dash symbol is rarely used in legitimate URLs. Phishers tend to add prefixes or suffixes separated by (-) to the domain name so that users feel that they are dealing with a legitimate webpage.
 - For example http://www.Confirme-paypal.com/.
-- IF {Domain Name Part Includes (−) Symbol → Phishing
-- Otherwise → Legitimate
+- IF {Domain Name Part Includes (−) Symbol → `Phishing` Otherwise → `Legitimate`}
 ```sh
 1 --> indicates phishing
 0 --> indicates legitimate

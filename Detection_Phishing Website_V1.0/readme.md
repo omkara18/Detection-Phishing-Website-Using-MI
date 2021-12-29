@@ -11,7 +11,7 @@
 - A typical URL could have the form http://www.example.com/index.html, which indicates a protocol (http), a hostname (www.example.com), and a file name (index.html).
 > Here we divided the protocol from the entire URL. 
 > but need it to be divided it seperate column
-![Alt Text](https://github.com/omkara18/Detection-Phishing-Website-Using-MI/blob/master/Detection_Phishing%20Website_V1.0/photos/separation.png)
+![Alt Text](https://github.com/omkara18/Detection-Phishing-Website-Using-MI/blob/master/Detection_Phishing%20Website_V1.0/photos/sepration.png)
 
 # Feature Extraction
 ## Feature-1:Long URL to Hide the Suspicious Part
